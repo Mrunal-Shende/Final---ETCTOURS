@@ -36,7 +36,7 @@
 import { useState, useCallback } from 'react';
 
 /* ── API base URL from Vite env (falls back to localhost) ── */
-const API_BASE = import.meta.env.VITE_PAYMENT_API_URL || 'http://localhost:3001';
+const API_BASE = import.meta.env.VITE_PAYMENT_API_URL || 'http://localhost:3001' || 'https://final-etctours-1.onrender.com';
 
 /* ── Load Razorpay checkout script exactly once ── */
 const loadRazorpayScript = () =>
