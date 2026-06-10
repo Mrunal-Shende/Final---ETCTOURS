@@ -46,6 +46,7 @@ const PORT = process.env.PORT || 3001;
 /* Allow requests from your React dev server (and production URL) */
 const allowedOrigins = [
   process.env.FRONTEND_URL || 'http://localhost:5173',
+  'https://etc-tours-travels.netlify.app',
   'http://localhost:3000',
   'http://localhost:5173',
 ].filter(Boolean);
